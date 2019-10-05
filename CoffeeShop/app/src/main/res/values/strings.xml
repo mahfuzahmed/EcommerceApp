@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="coffee_shop">COFFEE SHOP</string>
+    <string name="cd">mainactivitybackground</string>
+    <string name="cdforlogo">logomainactivity</string>
+</resources>
