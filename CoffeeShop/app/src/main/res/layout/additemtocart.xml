@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/additemtocartPopup"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/additemtocartPrimary">
+
+    <TextView
+        android:id="@+id/addtocartItemname"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/additemtocartPrimary"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/addtocartitemname"
+        android:textAllCaps="true"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/addtocartItempic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:contentDescription="@string/firebase_database_url" />
+
+    <TextView
+        android:id="@+id/setquantity"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="@string/defaultqty"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/decrease"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-40dp"
+        android:background="#2F333F"
+        android:contentDescription="@string/decreasebutton"
+        app:srcCompat="@drawable/backward_button_img" />
+
+    <ImageButton
+        android:id="@+id/increase"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-40dp"
+        android:background="#2F333F"
+        android:contentDescription="@string/increasebutton"
+        app:srcCompat="@drawable/forward_button_img" />
+
+    <ImageButton
+        android:id="@+id/addbutton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#2F333F"
+        android:contentDescription="@string/addbutton"
+        app:srcCompat="@drawable/add_button_img" />
+
+</LinearLayout>

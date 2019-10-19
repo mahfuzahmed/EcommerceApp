@@ -29,9 +29,11 @@
         android:contentDescription="@string/cdforlogo"
         android:visibility="visible"
         app:srcCompat="@mipmap/ic_launcher_round"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:layout_marginRight="72dp" />
 
     <TextView
+        android:id="@+id/appnametextview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/background"

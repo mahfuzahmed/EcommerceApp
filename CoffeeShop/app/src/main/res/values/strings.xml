@@ -3,4 +3,17 @@
     <string name="coffee_shop">COFFEE SHOP</string>
     <string name="cd">mainactivitybackground</string>
     <string name="cdforlogo">logomainactivity</string>
+    <string name="viewcartbutton">CartButton</string>
+    <string name="addtocartitemname">%1$s</string>
+    <string name="todo">TODO</string>
+    <string name="defaultqty">%1$d</string>
+    <string name="increasebutton">increasqty</string>
+    <string name="decreasebutton">decreaseqty</string>
+    <string name="addbutton">additemtocart</string>
+    <string name="carditemname">%1$s</string>
+    <string name="carditemimage">carditemimage</string>
+    <string name="additemtocartbutton">additemtocartbutton</string>
+
+
+
 </resources>

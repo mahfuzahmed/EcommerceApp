@@ -9,7 +9,22 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/itemlist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-     
+        android:layout_height="641dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="88dp" />
+
+    <ImageButton
+        android:id="@+id/viewcart_button"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignTop="@+id/itemlist"
+        android:layout_marginTop="640dp"
+        android:contentDescription="@string/viewcartbutton"
+        android:paddingLeft="@android:dimen/notification_large_icon_height"
+        android:paddingTop="@android:dimen/notification_large_icon_height"
+        android:paddingRight="@android:dimen/notification_large_icon_height"
+        android:paddingBottom="@android:dimen/notification_large_icon_height"
+        app:srcCompat="@drawable/ic_action_name" />
+
 
 </RelativeLayout>

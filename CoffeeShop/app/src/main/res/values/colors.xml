@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D5165B</color>
+    <color name="white">#FFF</color>
+    <color name="additemtocartPrimary">#2f333f</color>
+    <color name="additemtocartSecondary">#49acd5</color>
 </resources>
