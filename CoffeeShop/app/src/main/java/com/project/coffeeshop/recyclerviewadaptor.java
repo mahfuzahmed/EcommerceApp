@@ -84,6 +84,8 @@ public class recyclerviewadaptor extends RecyclerView.Adapter<recyclerviewadapto
 
         holder.carditemname.setText(mImagenames.get(position));
 
+        holder.itemprice.setText(mItemprices.get(position).toString()+" BDT");
+
 
         holder.cardLayout.setOnClickListener(new View.OnClickListener()
         {

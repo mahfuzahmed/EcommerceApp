@@ -60,27 +60,27 @@ public class ordercoffee extends AppCompatActivity
     {
         //Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
         mNames.add("Caffe Mocha");
-        mprices.add(250);
+        mprices.add(new Integer(250));
         mImageURLS.add("https://firebasestorage.googleapis.com/v0/b/cofee-shop.appspot.com/o/menu%2FCaffe%20Mocha.jpg?alt=media&token=1fd87827-8f9b-4433-b62d-6b33892739ec");
 
         mNames.add("Cappuccino");
-        mprices.add(250);
+        mprices.add(new Integer(250));
         mImageURLS.add("https://firebasestorage.googleapis.com/v0/b/cofee-shop.appspot.com/o/menu%2FCappuccino.jpg?alt=media&token=1c9a3dfc-40d4-4a4c-9e67-9c91c547f4b7");
 
         mNames.add("Coffee");
-        mprices.add(200);
+        mprices.add(new Integer(200));
         mImageURLS.add("https://firebasestorage.googleapis.com/v0/b/cofee-shop.appspot.com/o/menu%2FCoffee.jpg?alt=media&token=e58a2fd6-6c9d-4b99-b82a-7148e76add76");
 
         mNames.add("Espresso");
-        mprices.add(240);
+        mprices.add(new  Integer(240));
         mImageURLS.add("https://firebasestorage.googleapis.com/v0/b/cofee-shop.appspot.com/o/menu%2FEsspresso.jpg?alt=media&token=be212790-1823-4754-aeca-cb6818506ccb");
 
         mNames.add("Iced Coffee");
-        mprices.add(240);
+        mprices.add(new Integer(250));
         mImageURLS.add("https://firebasestorage.googleapis.com/v0/b/cofee-shop.appspot.com/o/menu%2FIced%20Coffee.jpg?alt=media&token=fcf118ea-08c8-495f-8fbe-95a8ebbfae10");
 
         mNames.add("Iced Latte");
-        mprices.add(300);
+        mprices.add(new Integer(300));
         mImageURLS.add("https://firebasestorage.googleapis.com/v0/b/cofee-shop.appspot.com/o/menu%2FIced%20Latte.jpg?alt=media&token=11dc7c37-e9fe-4a8c-8269-264295b42a1d");
 
 
