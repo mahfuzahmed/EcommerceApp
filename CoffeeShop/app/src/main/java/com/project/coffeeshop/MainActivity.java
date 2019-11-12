@@ -11,6 +11,9 @@ public class MainActivity extends AppCompatActivity
 {
     ImageView background;
     ImageView logo;
+
+    public MainActivity() {}
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -47,4 +50,7 @@ public class MainActivity extends AppCompatActivity
 
 
     }
+
+    //putextra
+    //getextra
 }

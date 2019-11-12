@@ -13,7 +13,8 @@
     <string name="carditemname">%1$s</string>
     <string name="carditemimage">carditemimage</string>
     <string name="additemtocartbutton">additemtocartbutton</string>
-
+    <string name="defaultquantity">1</string>
+    <string name="_1">1</string>
 
 
 </resources>
